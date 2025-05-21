@@ -12,7 +12,7 @@ body{
 
 .icone {
 	background:rgb(30, 84, 233);
-	width: 80px; 
+	width: 120px; 
 	height: auto;
 	border-radius: 8px;
 	position: absolute;
@@ -42,19 +42,17 @@ h2 {
 	color: #6BD1FF;
 }
 
-/* Container centralizado */
 .container{
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 20px;
 }
   
-/* Bloco com texto e imagem lado a lado */
 .bloco{
 	position: relative;
 	display: flex;
-	align-items: center; /* Alinha o texto e a imagem verticalmente */
-	gap: 20px; /* Espaçamento entre o texto e a imagem */
+	align-items: center; 
+	gap: 20px;
 }
 
 
